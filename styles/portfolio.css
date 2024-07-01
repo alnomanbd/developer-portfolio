@@ -4,6 +4,9 @@
 /* common shared styles */
 *{
     font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .text-primary{
     color:#FD6E0A;
@@ -34,6 +37,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
+    padding-top: 10px;
 }
 .nav-title{
     color: #181818;
@@ -56,7 +60,7 @@ nav a{
 /* header related styles */
 .header{
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png'), url('/images/developer.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, top left;
 }
